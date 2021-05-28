@@ -41,23 +41,5 @@
 >;
 		};
 
-    raise_layer {
-    bindings = <
-&trans          &kp N1  &kp N2  &kp N3   &kp N4   &kp N5    &trans          &kp C_VOL_DN  &kp N6    &kp N7   &kp N8      &kp N9      &kp N0    &kp EQUAL
-&trans          &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT &trans          &kp C_VOL_UP  &kp CARET &kp AMPS &kp STAR    &kp LPAR    &kp RPAR  &trans 
-&trans          &trans  &trans  &trans   &trans  &trans     &trans          &kp C_MUTE    &trans    &trans   &kp C_PREV  &kp C_NEXT  &kp C_PP  &trans
-&trans          &trans  &trans  &trans   &trans  &trans                                   &trans    &trans   &kp HOME    &kp PG_UP   &kp PG_DN &kp END
->;
-    		};
-
-    bluet_layer {
-    bindings = <
-&bt BT_CLR      &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &trans  &trans  &out OUT_TOG        &trans  &trans  &trans &trans &trans &trans &trans
-&trans          &trans       &trans       &trans       &trans  &trans  &trans              &trans  &trans  &trans &trans &trans &trans &trans
-&trans          &trans       &trans       &trans       &trans  &trans  &trans              &trans  &trans  &trans &trans &trans &trans &trans
-&trans          &trans       &trans       &trans       &trans  &trans                              &trans  &trans &trans &trans &trans &trans
->;
-        };
-
 	};
 };
