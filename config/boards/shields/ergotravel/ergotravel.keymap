@@ -53,7 +53,7 @@
 
     bluet_layer {
     bindings = <
-&BT_CLR    &bt BT_SEL 0   &bt BT_SEL 1   &BT_SEL 2  &trans  &trans &out OUT_TOG       &trans  &trans  &trans &trans &trans &trans &trans
+&bt BT_CLR &bt BT_SEL 0   &bt BT_SEL 1   &BT_SEL 2  &trans  &trans &out OUT_TOG       &trans  &trans  &trans &trans &trans &trans &trans
 &trans     &trans         &trans         &trans   &trans  &trans  &trans              &trans  &trans  &trans &trans &trans &trans &trans
 &trans     &trans         &trans         &trans   &trans  &trans  &trans              &trans  &trans  &trans &trans &trans &trans &trans
 &trans     &trans         &trans         &trans   &trans  &trans                              &trans &trans  &trans &trans &trans &trans
