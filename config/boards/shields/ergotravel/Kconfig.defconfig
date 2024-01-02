@@ -1,7 +1,7 @@
 if SHIELD_ERGOTRAVEL_LEFT
 
 config ZMK_KEYBOARD_NAME
-	default "Ergotravel Left"
+	default "Ergotravel"
 
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
 	default y
@@ -13,9 +13,6 @@ if SHIELD_ERGOTRAVEL_RIGHT
 
 config ZMK_KEYBOARD_NAME
 	default "Ergotravel Right"
-
-config USB
-	default y
 
 endif
 
