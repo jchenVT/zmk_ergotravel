@@ -17,11 +17,11 @@
 #define HYPER LS(LC(LGUI))
 
 &lt {
-    tapping_term_ms = <300>;
+    tapping-term-ms = <300>;
 };
 
 &mt {
-    tapping_term_ms = <300>;
+    tapping-term-ms = <300>;
 };
 
 &sl {
